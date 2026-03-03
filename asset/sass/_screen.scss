@@ -59,14 +59,25 @@ a {
     color: inherit;
 }
 
-p a,
-span a {
-    background-color: var(--accent-color, $accent-color);
-}
-
 p,
 ul {
     margin: $spacing-l 0;
+}
+
+#content {
+    p a,
+    span a {
+        font-weight: 500;
+        color: var(--accent-color, $accent-color);
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        text-decoration-thickness: 2px;
+        transition: color 0.3s ease;
+        
+        &:hover {
+            color: color-mix(currentcolor, black 12%);
+        }
+    }
 }
 
 figure {
