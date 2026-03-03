@@ -1,25 +1,15 @@
 {
-  "name": "thedaily",
-  "version": "1.7.0",
-  "description": "Sans serif theme for Omeka S featuring custom colors.",
+  "name": "omeka-s-theme-multilingual",
+  "version": "1.0",
   "main": "gulpfile.js",
   "scripts": {
+    "build": "gulp css",
     "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/omeka-s-themes/thedaily.git"
   },
   "keywords": [
     "omeka-s",
     "theme"
   ],
-  "author": "RRCHNM",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/omeka-s-themes/thedaily/issues"
-  },
-  "homepage": "https://github.com/omeka-s-themes/thedaily#readme",
   "devDependencies": {
     "autoprefixer": "^9.2.1",
     "gulp": "^4.0.2",
